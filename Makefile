@@ -1,8 +1,8 @@
 CC = rustc
 CFLAGS = --edition 2021 -C panic=abort -C linker=gcc -C opt-level=3 -C lto 
 LDFLAGS = -lc
-TARGET = test
-SOURCE = test.rs
+TARGET = demo
+SOURCE = demo.rs
 
 # Default target
 all: $(TARGET)
